@@ -54,4 +54,8 @@ Once the structure is set, confirm any missing presenter name and school before 
 
 Reuse the original template's large type, spacing, figure frames and light palette. Split dense content instead of shrinking it.
 
-[Download the complete skill](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.2.1)
+## Review the actual slides
+
+Inspect the whole-deck rhythm, then read every rendered slide at a consistent viewing size. Check title/body hierarchy, weight, line breaks, spacing and effective figure-label size. Fix visible issues, render again and inspect the corrected pages. A successful export or contact sheet alone is insufficient. [Typography review](skill/references/typography-review.md).
+
+[Download the complete skill](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.3.0)
