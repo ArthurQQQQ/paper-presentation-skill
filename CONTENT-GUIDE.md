@@ -25,7 +25,7 @@ Work backward from the mechanism and evidence. Add what the audience needs; subt
 
 ## Mechanism: follow the original figure
 
-Start with the paper's overview. Explain input, operation, output and state through the same figure or its original panels. Keep the figure position stable across focused pages. Use a recorded paper example when available; otherwise a clearly identified oral example can live in speaker notes.
+Start with the paper's overview. Explain input, operation, output and state through the same figure or its original panels. Keep the figure position stable across focused pages. Make the case’s key input, candidate or state change visible with the original figure and necessary editable phrases. Use a faithful source case or clearly label a hypothetical teaching path; do not invent recorded outputs or measured scores.
 
 <img src="assets/readme/workflow-dark.svg" width="100%" alt="Use the paper and duration, original template, paper figures, and speaker notes.">
 
@@ -54,8 +54,12 @@ Once the structure is set, confirm any missing presenter name and school before 
 
 Reuse the original template's large type, spacing, figure frames and light palette. Split dense content instead of shrinking it.
 
+## Review the argument first
+
+Read the slide sequence and notes as a first-time listener, separately from typography review. Bridge concepts and metric directions before using them. Distinguish evaluation protocols, cohorts and uncertainty types; keep conclusions within the actual comparison’s scope. After edits or crops, synchronize the notes, figure-reading directions and timing with the final images. [Content review](skill/references/content-review.md).
+
 ## Review the actual slides
 
 Inspect the whole-deck rhythm, then read every rendered slide at a consistent viewing size. Check title/body hierarchy, weight, line breaks, spacing and effective figure-label size. Fix visible issues, render again and inspect the corrected pages. A successful export or contact sheet alone is insufficient. [Typography review](skill/references/typography-review.md).
 
-[Download the complete skill](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.3.0)
+[Download the complete skill](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.4.0)

@@ -1,10 +1,11 @@
-A mandatory visual revision pass after slide generation.
+A distinct content and narrative review before typography review.
 
-- Inspect the deck’s rhythm, then read every rendered slide at a consistent viewing size.
-- Adjust typography by role: title, body, conditions, labels and takeaways. Check inherited boldness, wrapping, spacing and figure scale.
-- Assess the effective size of original figure labels. Enlarge faithful panels while preserving axes, units and comparison conditions; keep full context in backup when needed.
-- Fix visible issues, rerender and inspect the corrected slides before delivery. Shared-style changes require review of every affected page.
+- Read the slide sequence and notes as a first-time listener. Bridge prerequisite concepts, metric directions and comparison conditions before using them.
+- Make the same case’s meaningful changes visible. Accompany original figures with necessary editable phrases: faithful to a source case or clearly labeled as hypothetical, with no invented logs or measured scores.
+- Separate evaluation protocols, cohorts and comparison questions. Preserve the source’s uncertainty type and claim scope; an interval containing zero does not establish equivalence.
+- After reordering, cropping or moving slides to backup, synchronize the final images, reading directions, notes, transitions and timing.
+- Fix content issues, then complete the existing rendered typography review: revise, rerender and inspect corrected pages.
 
-The content-first, duration-aware workflow and light ReasoningBank template remain. Current content figures use the presented paper’s originals or faithful crops; detailed explanations and sources go in speaker notes. Historical ImageGen examples and prompts remain archival.
+The duration-aware workflow, light ReasoningBank template and original-paper-figure/crop constraint remain. Historical ImageGen examples and prompts remain archival. No new generated content figure, redrawn evidence or experiment is authorized by this update.
 
-The complete ZIP includes the current skill and all original reference assets. Install the release ZIP; current instruction source is also available under `skill/`. The package excludes OS metadata, personal profiles, credentials, private test-paper files and chat traces. Each new deck needs its own final visual review.
+The complete ZIP includes current skill instructions and original reference assets; the instruction source is also available under `skill/`. The package excludes OS metadata, personal profiles, credentials, private test-paper files and chat traces. Each new deck requires its own content and final visual review.

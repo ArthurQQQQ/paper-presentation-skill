@@ -1,6 +1,6 @@
 # Explain the paper's figures
 
-**Original overview → focused panel → clear spoken explanation.**
+**Original overview → focused panel → visible case → clear explanation.**
 
 ![Current production workflow](assets/readme/workflow-dark.svg)
 
@@ -8,8 +8,8 @@
 
 1. **Select the source.** Verify the paper version and figure/table number. Prefer author-provided originals or material from the same-version PDF.
 2. **Reuse the template.** Place the source in the approved figure frame, preserving its aspect ratio. Reuse the original overview or zoom into a faithful original panel.
-3. **Unfold the explanation.** Keep positions stable. At each step explain the input, operation, output, state and condition. Preserve original edges, labels, axes, units and comparison groups.
-4. **Write the notes.** Record what to point at, how to read it, the transition, limitations and exact source. Check projection-size readability.
+3. **Unfold the explanation.** Keep positions stable. At each step explain the input, operation, output, state and condition. Make the case’s meaningful change visible with necessary editable phrases: faithfully sourced or clearly hypothetical. Preserve original edges, labels, axes, units and comparison groups.
+4. **Write the notes.** Record what to point at, how to read it, the transition, limitations and exact source. After edits or crops, synchronize these directions with the final image. Check projection-size readability.
 
 Content figures use only original paper figures, tables and faithful crops. When the paper has no suitable figure, use a large-text page with spoken detail in notes. Do not generate illustrations or redraw mechanisms/results for a new talk.
 

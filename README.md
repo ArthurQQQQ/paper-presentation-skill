@@ -1,7 +1,7 @@
 <img src="assets/readme/hero-dark.svg" width="100%" alt="Paper to Presentation: choose the content, explain the mechanism with original figures, and ground each claim in evidence. Workflow preview.">
 
 <p align="center">
-  <a href="https://github.com/ArthurQQQQ/paper-presentation-skill/releases/download/v1.3.0/reasoningbank-research-slides-v1.3.0.zip">Download skill</a>
+  <a href="https://github.com/ArthurQQQQ/paper-presentation-skill/releases/download/v1.4.0/reasoningbank-research-slides-v1.4.0.zip">Download skill</a>
   &nbsp; · &nbsp;
   <a href="EXAMPLES.md">Reference slides</a>
   &nbsp; · &nbsp;
@@ -13,6 +13,7 @@
 - **Content first.** Choose the background, argument and evidence before the layout.
 - **Original figures.** Explain the paper through its diagrams, tables and faithful crops.
 - **A talk you can give.** Adapt depth to duration; keep detailed explanations and sources in speaker notes.
+- **Content review.** Read as a first-time listener: bridge concepts, show the case, separate comparisons and preserve uncertainty.
 - **Review, revise, render again.** Inspect every slide’s type hierarchy, wrapping and figure labels before delivery.
 
 ## Fit the time
@@ -25,7 +26,7 @@ Give the speaking time; the skill adjusts structure, depth and summarization. [D
 
 <img src="assets/readme/workflow-dark.svg" width="100%" alt="Paper and duration, original template layouts, original paper figures, then speaker notes and review.">
 
-Reuse the approved ReasoningBank layouts: large type, light slides, clear figure placement. The GitHub showcase uses a dark palette; the presentation retains the original light template.
+Reuse the approved ReasoningBank layouts: large type, light slides, clear figure placement. The GitHub showcase uses a dark palette; the presentation retains the original light template. After revisions, synchronize the final slides, speaker notes and timing.
 
 ## Reference example
 
@@ -49,12 +50,12 @@ After the structure is set, confirm any missing presenter name and school before
 <details>
 <summary>Package, sources and verification</summary>
 
-The complete v1.3.0 package includes the skill, duration and content guidance, the original 43-page PPTX/PDF, all reference pages and optional previews. Install the release ZIP; this repository contains guides and examples.
+The complete v1.4.0 package includes the skill, duration and content guidance, the original 43-page PPTX/PDF, all reference pages and optional previews. Install the release ZIP; this repository contains guides and examples.
 
 The reference deck includes historical ImageGen teaching illustrations. Their original prompt and assets are retained as production records. Current content figures come only from the paper being presented; no image model, model weights or API adapter is bundled. Embedded PNG text remains rasterized; slide titles and conclusions are editable.
 
 The dark visuals above are README artwork and a historical teaching-diagram adaptation. They do not change the original slides. Candidate ranking is illustrative, not measured. Every new-paper deck requires its own rendered visual review; the reference template alone does not establish its quality. Source figures, institutional marks and media retain their attribution. Personal profiles and credentials are excluded.
 
-[Release and checksum](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.3.0)
+[Release and checksum](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.4.0)
 
 </details>
