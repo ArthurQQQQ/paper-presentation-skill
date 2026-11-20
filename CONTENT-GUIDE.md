@@ -54,4 +54,4 @@ Once the structure is set, confirm any missing presenter name and school before 
 
 Reuse the original template's large type, spacing, figure frames and light palette. Split dense content instead of shrinking it.
 
-[Download the complete skill](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.2.0)
+[Download the complete skill](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.2.1)

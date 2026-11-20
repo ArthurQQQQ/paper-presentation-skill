@@ -66,6 +66,11 @@ def assemble():
             path = PurePosixPath(item.filename)
             if path.is_absolute() or ".." in path.parts or path.parts[0] != SKILL:
                 raise ValueError("Unexpected path in reference archive")
+            relative = path.relative_to(SKILL)
+            if any(part.startswith(".") for part in relative.parts):
+                continue
+            if relative.parts[0] not in {"assets", "examples"} and str(relative) != "README.md":
+                continue
             if not item.is_dir():
                 contents[item.filename] = original.read(item)
 

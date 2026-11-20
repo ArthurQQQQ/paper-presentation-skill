@@ -1,7 +1,7 @@
 <img src="assets/readme/hero-dark.svg" width="100%" alt="Paper to Presentation: choose the content, explain the mechanism with original figures, and ground each claim in evidence. Workflow preview.">
 
 <p align="center">
-  <a href="https://github.com/ArthurQQQQ/paper-presentation-skill/releases/download/v1.2.0/reasoningbank-research-slides-v1.2.0.zip">Download skill</a>
+  <a href="https://github.com/ArthurQQQQ/paper-presentation-skill/releases/download/v1.2.1/reasoningbank-research-slides-v1.2.1.zip">Download skill</a>
   &nbsp; · &nbsp;
   <a href="EXAMPLES.md">Reference slides</a>
   &nbsp; · &nbsp;
@@ -48,12 +48,12 @@ After the structure is set, confirm any missing presenter name and school before
 <details>
 <summary>Package, sources and verification</summary>
 
-The complete v1.2.0 package includes the skill, duration and content guidance, the original 43-page PPTX/PDF, all reference pages and optional previews. Install the release ZIP; this repository contains guides and examples.
+The complete v1.2.1 package includes the skill, duration and content guidance, the original 43-page PPTX/PDF, all reference pages and optional previews. Install the release ZIP; this repository contains guides and examples.
 
 The reference deck includes historical ImageGen teaching illustrations. Their original prompt and assets are retained as production records. Current content figures come only from the paper being presented; no image model, model weights or API adapter is bundled. Embedded PNG text remains rasterized; slide titles and conclusions are editable.
 
 The dark visuals above are README artwork and a historical teaching-diagram adaptation. They do not change the original slides. Candidate ranking is illustrative, not measured. New-paper use has been reviewed at storyboard level; complete new-paper rendering remains unverified. Source figures, institutional marks and media retain their attribution. Personal profiles and credentials are excluded.
 
-[Release and checksum](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.2.0)
+[Release and checksum](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.2.1)
 
 </details>
