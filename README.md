@@ -1,108 +1,79 @@
 <h1 align="center">Paper → Presentation</h1>
 
-<p align="center"><strong>用图表讲清一篇论文。</strong></p>
-<p align="center">从内容取舍到讲述逻辑，让问题、机制和证据连起来。</p>
+<p align="center">Explain the mechanism. Show the evidence.</p>
 
 <p align="center">
-  <a href="https://github.com/ArthurQQQQ/paper-presentation-skill/releases/download/v1.1.0/reasoningbank-research-slides-v1.1.0.zip">下载完整 skill</a>
+  <a href="https://github.com/ArthurQQQQ/paper-presentation-skill/releases/download/v1.1.0/reasoningbank-research-slides-v1.1.0.zip">Download skill</a>
   &nbsp; · &nbsp;
-  <a href="CONTENT-GUIDE.md">阅读制作逻辑</a>
+  <a href="DIAGRAM-GUIDE.md">How the diagrams are made</a>
 </p>
 
 <br>
 
-## 机制，用同一个案例展开
+## One idea. One visual.
 
-总览定位，局部展开，再让同一个例子走过输入、操作和输出。
-
-<p align="center">
-  <img src="showcase-mechanism.png" width="100%" alt="实际机制页：上方解释query编码、相似度排序与载入记忆，下方用首购案例走完同一过程。">
-</p>
+<img src="showcase-mechanism.png" width="100%" alt="Reference slide: editable retrieval mechanism above a concrete worked example, with a fixed overview.">
 
 <br>
 
-## Diagram，先定语义，再嵌入
+## Follow one example.
 
-精确机制用可编辑对象，具体案例用蓝白教学图，固定总览标出当前步骤。
-
-<p align="center">
-  <img src="showcase-diagram.png" width="100%" alt="实际嵌入的教学diagram：新query、两条示意候选、所选候选关联的memory atom；不含测量分数。">
-</p>
-
-**定对象与箭头 → 选择原生图或生成素材 → 分步展开 → 等比嵌入 → 检查语义与可读性**
-
-[看 diagram 怎么做，以及当时实际使用的 prompt →](DIAGRAM-GUIDE.md)
-
-这是第15页实际嵌入的案例图；候选排序是教学示意。新版内置制作模块与原始prompt，无需另装diagram skill。
+<img src="showcase-diagram.png" width="100%" alt="Actual embedded teaching diagram: embed a new query, rank illustrative candidates, load the linked memory atom.">
 
 <br>
 
-## 证据，一页回答一个问题
-
-大图呈现比较，短句说明发现，关键限制留在结论旁。
-
-<p align="center">
-  <img src="showcase-experiment.png" width="100%" alt="实际实验页：失败经验消融柱图，旁边保留具体比较和未测试条件，底部引出研究问题。">
-</p>
+<img src="showcase-record.png" width="100%" alt="Actual teaching illustration showing how one experience is appended to the memory bank.">
 
 <br>
 
-## 讨论，从边界打开问题
+## Make boundaries visible.
 
-用大字和留白收束：环境规则改变后，agent该怎样更新记忆？
-
-<p align="center">
-  <img src="showcase-discussion.png" width="100%" alt="实际讨论页：常识与本地规则的区别，配柔和蓝白概念插图，以一个清晰问题结束。">
-</p>
-
-以上均为附带的 **ReasoningBank 最终43页参考稿中的实际页面**。
+<img src="showcase-boundaries.png" width="100%" alt="Reference slide: shared memory within a task category, with separate banks across categories.">
 
 <br>
 
-## 默认流程：先决定讲什么
+## Let the data answer.
 
-**问题 → 必要背景与基线 → 关键 idea → 分步机制 → 实验证据 → 结论与限制**
-
-逻辑骨架稳定；页数、背景深度和讨论范围随论文与听众调整。
-
-| 要做的决定 | skill怎样处理 |
-|---|---|
-| 背景讲多少 | 只补后文机制或结论真正需要、而听众尚未掌握的概念。 |
-| 机制怎么讲 | 先看全图，再用稳定案例逐步展开；每页或每次揭示只增加一个理解依赖。 |
-| 实验用什么图 | 先确定问题、比较与指标，再选择主收益、消融、代价、泛化或失效的表达。 |
-| 要不要扩展主题 | 根据报告目标、证据与时间，选择聚焦论文、有限延伸或general topic。 |
-
-[查看完整内容与选图方法 →](CONTENT-GUIDE.md)
+<img src="showcase-experiment.png" width="100%" alt="Reference experiment slide: failure-learning ablation, comparison, findings and evidence limits.">
 
 <br>
 
-## 开始使用
+## Leave a real question.
 
-**[下载完整 v1.1.0 技能包](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/download/v1.1.0/reasoningbank-research-slides-v1.1.0.zip)** · 约44 MiB
+<img src="showcase-discussion.png" width="100%" alt="Reference discussion slide: how should an agent update memory when local rules change?">
 
-1. 下载Release中的完整ZIP并解压。
-2. 将 `artifact-template-reasoningbank-research-slides` 文件夹放入个人Codex技能目录，通常为 `~/.codex/skills/`。
-3. 调用skill并给出paper；有需要时补充听众和报告时长。
+Actual slides and figures from the approved ReasoningBank deck. Teaching examples are illustrative.
+
+<br>
+
+## Start with the argument.
+
+**Problem → essential background → idea → mechanism → evidence → limits**
+
+[Content decisions](CONTENT-GUIDE.md) · [Diagram recipe + original prompt](DIAGRAM-GUIDE.md)
+
+<br>
+
+## Use it.
+
+1. [Download v1.1.0](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/download/v1.1.0/reasoningbank-research-slides-v1.1.0.zip) and extract.
+2. Move `artifact-template-reasoningbank-research-slides` into `~/.codex/skills/`.
+3. Give it a paper:
 
 ```text
-用 $artifact-template-reasoningbank-research-slides
-把这篇paper做成20分钟组会报告。
-优先讲清关键idea、机制和证据，由你决定需要多少背景。
+Use $artifact-template-reasoningbank-research-slides
+Turn this paper into a 20-minute research talk.
 ```
 
-姓名、学校或其他机构、字号和配色均为**后续可选配置**。
+Name, institution and colors are optional.
 
 <details>
-<summary>完整包、验证范围与来源</summary>
+<summary>Package and sources</summary>
 
-完整安装内容在Release ZIP中；仓库主分支提供首页展示与流程说明。
+The complete release includes instructions, diagram/image prompts, all43 reference slides, the original PPTX/PDF and optional previews. Install the release ZIP; the repository contains guides and examples.
 
-包内包括skill指令、内容流程、实验选图、内置diagram制作与原始prompt、图片生成模板、讨论设计、43页逐页分析、原始PPTX/PDF、全部页例及可选交互预览。个人配置与凭据不在包内。
+New-paper use has been reviewed at storyboard level. Complete new-paper rendering remains unverified. Original figures, institutional marks and media retain their source attribution. Personal profiles and credentials are excluded.
 
-已独立审阅内容流程，并完成有边界的故事板试用；新论文完整成稿的视觉复现仍需在实际制作时检查。上方图片展示的是保留参考稿。
-
-参考稿中的作者、机构标识、研究图表与媒体保留各自来源。它们用于展示表达与视觉方法，新使用者的身份不从参考稿继承。第三方材料的归属与适用条款以原来源为准。
-
-[发布记录与校验文件](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.1.0)
+[Release and checksum](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.1.0)
 
 </details>
