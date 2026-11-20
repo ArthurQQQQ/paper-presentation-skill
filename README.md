@@ -1,79 +1,59 @@
-<h1 align="center">Paper → Presentation</h1>
-
-<p align="center">Explain the mechanism. Show the evidence.</p>
+<img src="assets/readme/hero-dark.svg" width="100%" alt="Paper to Presentation: choose the content, explain the mechanism with original figures, and ground each claim in evidence. Workflow preview.">
 
 <p align="center">
-  <a href="https://github.com/ArthurQQQQ/paper-presentation-skill/releases/download/v1.1.0/reasoningbank-research-slides-v1.1.0.zip">Download skill</a>
+  <a href="https://github.com/ArthurQQQQ/paper-presentation-skill/releases/download/v1.2.0/reasoningbank-research-slides-v1.2.0.zip">Download skill</a>
   &nbsp; · &nbsp;
-  <a href="DIAGRAM-GUIDE.md">How the diagrams are made</a>
+  <a href="EXAMPLES.md">Reference slides</a>
+  &nbsp; · &nbsp;
+  <a href="DIAGRAM-GUIDE.md">Figure workflow</a>
 </p>
 
-<br>
+## Why this skill
 
-## One idea. One visual.
+- **Content first.** Choose the background, argument and evidence before the layout.
+- **Original figures.** Explain the paper through its diagrams, tables and faithful crops.
+- **A talk you can give.** Adapt depth to duration; keep detailed explanations and sources in speaker notes.
 
-<img src="showcase-mechanism.png" width="100%" alt="Reference slide: editable retrieval mechanism above a concrete worked example, with a fixed overview.">
+## Fit the time
 
-<br>
+**5 min: contribution → 20 min: mechanism + evidence → 60 min: deep seminar**
 
-## Follow one example.
+Give the speaking time; the skill adjusts structure, depth and summarization. [Duration examples](DURATION-GUIDE.md).
 
-<img src="showcase-diagram.png" width="100%" alt="Actual embedded teaching diagram: embed a new query, rank illustrative candidates, load the linked memory atom.">
+## How it works
 
-<br>
+<img src="assets/readme/workflow-dark.svg" width="100%" alt="Paper and duration, original template layouts, original paper figures, then speaker notes and review.">
 
-<img src="showcase-record.png" width="100%" alt="Actual teaching illustration showing how one experience is appended to the memory bank.">
+Reuse the approved ReasoningBank layouts: large type, light slides, clear figure placement. The GitHub showcase uses a dark palette; the presentation retains the original light template.
 
-<br>
+## Reference example
 
-## Make boundaries visible.
+<img src="assets/readme/retrieval-dark.svg" width="100%" alt="Dark README adaptation of a historical teaching example. Candidate ranking is illustrative, not measured.">
 
-<img src="showcase-boundaries.png" width="100%" alt="Reference slide: shared memory within a task category, with separate banks across categories.">
+[Actual reference slides](EXAMPLES.md) · [Figure selection + historical prompt](DIAGRAM-GUIDE.md)
 
-<br>
+## Use it
 
-## Let the data answer.
-
-<img src="showcase-experiment.png" width="100%" alt="Reference experiment slide: failure-learning ablation, comparison, findings and evidence limits.">
-
-<br>
-
-## Leave a real question.
-
-<img src="showcase-discussion.png" width="100%" alt="Reference discussion slide: how should an agent update memory when local rules change?">
-
-Actual slides and figures from the approved ReasoningBank deck. Teaching examples are illustrative.
-
-<br>
-
-## Start with the argument.
-
-**Problem → essential background → idea → mechanism → evidence → limits**
-
-[Content decisions](CONTENT-GUIDE.md) · [Diagram recipe + original prompt](DIAGRAM-GUIDE.md)
-
-<br>
-
-## Use it.
-
-1. [Download v1.1.0](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/download/v1.1.0/reasoningbank-research-slides-v1.1.0.zip) and extract.
+1. Download the complete release ZIP and extract.
 2. Move `artifact-template-reasoningbank-research-slides` into `~/.codex/skills/`.
-3. Give it a paper:
+3. Give it a paper and time:
 
 ```text
 Use $artifact-template-reasoningbank-research-slides
-Turn this paper into a 20-minute research talk.
+Make a 20-minute academic talk from this paper, plus 5 minutes Q&A.
 ```
 
-Name, institution and colors are optional.
+After the structure is set, confirm any missing presenter name and school before the cover. Body slides and notes continue while you answer.
 
 <details>
-<summary>Package and sources</summary>
+<summary>Package, sources and verification</summary>
 
-The complete release includes instructions, diagram/image prompts, all43 reference slides, the original PPTX/PDF and optional previews. Install the release ZIP; the repository contains guides and examples.
+The complete v1.2.0 package includes the skill, duration and content guidance, the original 43-page PPTX/PDF, all reference pages and optional previews. Install the release ZIP; this repository contains guides and examples.
 
-New-paper use has been reviewed at storyboard level. Complete new-paper rendering remains unverified. Original figures, institutional marks and media retain their source attribution. Personal profiles and credentials are excluded.
+The reference deck includes historical ImageGen teaching illustrations. Their original prompt and assets are retained as production records. Current content figures come only from the paper being presented; no image model, model weights or API adapter is bundled. Embedded PNG text remains rasterized; slide titles and conclusions are editable.
 
-[Release and checksum](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.1.0)
+The dark visuals above are README artwork and a historical teaching-diagram adaptation. They do not change the original slides. Candidate ranking is illustrative, not measured. New-paper use has been reviewed at storyboard level; complete new-paper rendering remains unverified. Source figures, institutional marks and media retain their attribution. Personal profiles and credentials are excluded.
+
+[Release and checksum](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.2.0)
 
 </details>

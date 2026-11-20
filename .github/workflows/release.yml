@@ -1,0 +1,28 @@
+name: Publish complete skill package
+
+on:
+  push:
+    branches: [main]
+    paths: [release.json]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: complete-skill-release
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out release source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Assemble and publish the complete package
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/publish_release.py

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="680" viewBox="0 0 1400 680" role="img" aria-labelledby="title desc">
+  <title id="title">Paper to Presentation</title>
+  <desc id="desc">A workflow preview: choose content, explain original paper figures, and connect each claim to evidence. Dark README artwork, not a screenshot of generated slides.</desc>
+  <rect width="1400" height="680" rx="20" fill="#0d1117"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="56" y="108" font-size="64" font-weight="700" fill="#f0f6fc">Paper <tspan fill="#79c0ff">→</tspan> Presentation</text>
+    <text x="56" y="168" font-size="30" fill="#b1bac4">A clear argument. A mechanism you can follow.</text>
+    <line x1="56" y1="216" x2="1344" y2="216" stroke="#30363d" stroke-width="2"/>
+    <rect x="56" y="258" width="380" height="300" rx="14" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <rect x="510" y="258" width="380" height="300" rx="14" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <rect x="964" y="258" width="380" height="300" rx="14" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <text x="88" y="314" font-size="30" font-weight="700" fill="#79c0ff">Choose the content</text>
+    <text x="88" y="388" font-size="32" fill="#f0f6fc">One central question</text>
+    <text x="88" y="442" font-size="26" fill="#b1bac4">Essential background</text>
+    <text x="88" y="490" font-size="26" fill="#b1bac4">A claim worth explaining</text>
+    <path d="M452 408H488M478 398L488 408L478 418" fill="none" stroke="#79c0ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="542" y="314" font-size="30" font-weight="700" fill="#79c0ff">Unfold the mechanism</text>
+    <text x="542" y="388" font-size="32" fill="#f0f6fc">Input → action → state</text>
+    <text x="542" y="442" font-size="26" fill="#b1bac4">The paper's own figures</text>
+    <text x="542" y="490" font-size="26" fill="#b1bac4">One dependency at a time</text>
+    <path d="M906 408H942M932 398L942 408L932 418" fill="none" stroke="#79c0ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="996" y="314" font-size="30" font-weight="700" fill="#79c0ff">Ground the claim</text>
+    <text x="996" y="388" font-size="32" fill="#f0f6fc">Question → evidence</text>
+    <text x="996" y="442" font-size="26" fill="#b1bac4">Readable comparisons</text>
+    <text x="996" y="490" font-size="26" fill="#b1bac4">Limits beside conclusions</text>
+    <text x="56" y="626" font-size="26" fill="#8b949e">Content first · Original figures · Speaker notes</text>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="500" viewBox="0 0 1400 500" role="img" aria-labelledby="title desc">
+  <title id="title">Follow one query through retrieval</title>
+  <desc id="desc">Dark README adaptation of the original teaching figure. A new query ranks two illustrative historical candidates; the selected experience supplies a linked memory atom. The ranking is not measured.</desc>
+  <rect width="1400" height="500" rx="20" fill="#0d1117"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="48" y="70" font-size="38" font-weight="700" fill="#f0f6fc">Follow one query.</text>
+    <text x="48" y="116" font-size="24" fill="#8b949e">A teaching example, adapted for this README.</text>
+    <rect x="48" y="174" width="350" height="234" rx="12" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <rect x="468" y="174" width="460" height="234" rx="12" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <rect x="998" y="174" width="354" height="234" rx="12" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <text x="74" y="226" font-size="28" font-weight="700" fill="#79c0ff">Embed new query</text>
+    <text x="494" y="226" font-size="28" font-weight="700" fill="#79c0ff">Rank by query similarity</text>
+    <text x="1024" y="226" font-size="28" font-weight="700" fill="#79c0ff">Load linked atom</text>
+    <line x1="74" y1="250" x2="372" y2="250" stroke="#30363d" stroke-width="2"/>
+    <line x1="1024" y1="250" x2="1326" y2="250" stroke="#30363d" stroke-width="2"/>
+    <text x="74" y="310" font-size="31" font-weight="700" fill="#f0f6fc">What did I</text>
+    <text x="74" y="352" font-size="31" font-weight="700" fill="#f0f6fc">buy first?</text>
+    <rect x="486" y="266" width="424" height="66" rx="8" fill="#132b45"/>
+    <text x="502" y="308" font-size="27" fill="#f0f6fc">1  When was my first purchase?</text>
+    <text x="502" y="374" font-size="27" fill="#b1bac4">2  What is the return policy?</text>
+    <text x="1024" y="310" font-size="30" font-weight="700" fill="#f0f6fc">Check the full</text>
+    <text x="1024" y="352" font-size="30" font-weight="700" fill="#f0f6fc">order history</text>
+    <path d="M414 299H451M440 288L451 299L440 310" fill="none" stroke="#79c0ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M944 299H981M970 288L981 299L970 310" fill="none" stroke="#79c0ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="48" y="464" font-size="24" fill="#8b949e">Illustrative candidates and order · No measured similarity scores</text>
+  </g>
+</svg>

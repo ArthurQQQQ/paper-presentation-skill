@@ -4,6 +4,10 @@
 
 A sequence of understanding, not a fixed slide count.
 
+## Start with paper + time
+
+Reuse supplied inputs; ask only for what is missing. Explain the learning goal, depth, timed structure and backup choices, then continue. [Duration examples](DURATION-GUIDE.md).
+
 ## Choose what belongs
 
 | Keep it in… | When… |
@@ -17,37 +21,37 @@ Keep conditions and counterevidence that could change the conclusion visible.
 
 ## Background: only the missing prerequisites
 
-Work backward from the mechanism and evidence. Add what the audience needs to understand them; subtract what they already know. Use a concrete failure or a minimal baseline to create the need for the paper's idea.
+Work backward from the mechanism and evidence. Add what the audience needs; subtract what they already know. A concrete failure or minimal baseline creates the need for the idea.
 
-## Mechanism: keep one example
+## Mechanism: follow the original figure
 
-Show the whole map. Follow one input through its operations and state changes. Keep objects in the same positions as the explanation unfolds.
+Start with the paper's overview. Explain input, operation, output and state through the same figure or its original panels. Keep the figure position stable across focused pages. Use a recorded paper example when available; otherwise a clearly identified oral example can live in speaker notes.
 
-<img src="showcase-mechanism.png" width="100%" alt="Actual reference slide combining a general mechanism, a fixed overview and a worked example.">
+<img src="assets/readme/workflow-dark.svg" width="100%" alt="Use the paper and duration, original template, paper figures, and speaker notes.">
 
-[Build and embed the diagram →](DIAGRAM-GUIDE.md)
+[Figure workflow →](DIAGRAM-GUIDE.md)
 
 ## Evidence: one question per figure
 
-| Question | Useful visual |
+| Question | Select from the paper |
 |---|---|
-| Does it help? | A readable comparison with the relevant baseline. |
-| Which component matters? | An ablation with shared scales and conditions. |
-| What does it cost? | Quality against time, tokens, memory or another reported resource. |
-| Where does it fail? | A concrete case, robustness curve or subgroup comparison. |
+| Does it help? | The main comparison and its baseline. |
+| Which component matters? | A relevant ablation. |
+| What does it cost? | Reported resource/quality evidence. |
+| Where does it fail? | A source case, robustness figure or subgroup analysis. |
 
-Choose from the actual evidence. Preserve units, settings and uncertainty where available; separate measured results from explanations and hypotheses. Theory may call for a derivation or counterexample instead of a data plot.
+Use original figures, tables or faithful crops. Preserve labels, axes, units, comparison groups and conditions. Do not redraw or generate content figures. When no suitable original exists, use a large-text takeaway and speaker notes, or omit the material.
 
-<img src="showcase-experiment.png" width="100%" alt="Actual evidence slide with an ablation, a specific finding and its limits.">
+[Actual reference slides →](EXAMPLES.md)
 
-## Scope: earn the extension
+## Scope and conclusion
 
-Stay with the paper for a focused journal club. Add a small bridge when a sourced concept explains its contribution or a concrete limitation. Build a broader topic talk when that is the user's goal and the sources support it.
+Expand beyond the paper only when the audience goal, time and sources support it. End at a concrete evidence boundary, with a question and a comparison that could resolve it.
 
-## End at the boundary
+## Cover and notes
 
-Ask a question the evidence leaves open. Name the competing explanations and a comparison that could distinguish them.
+Once the structure is set, confirm any missing presenter name and school before the cover. Offer applicable prior settings as clearly sourced choices. Continue the body while waiting; users may edit one item, use another institution or omit branding. Details, reading steps and precise sources go in each slide's notes.
 
-Name, institution, type size and colors are optional later settings. Split dense content instead of shrinking the text.
+Reuse the original template's large type, spacing, figure frames and light palette. Split dense content instead of shrinking it.
 
-[Download the complete skill and detailed references](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.1.0)
+[Download the complete skill](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.2.0)

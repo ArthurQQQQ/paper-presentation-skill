@@ -1,36 +1,32 @@
-# Diagrams that explain
+# Explain the paper's figures
 
-**Define the relationship. Draw the mechanism. Walk through one example.**
+**Original overview → focused panel → clear spoken explanation.**
 
-![Actual mechanism slide: editable flow above, worked example below, fixed overview at top right.](showcase-mechanism.png)
+![Current production workflow](assets/readme/workflow-dark.svg)
 
-| Layer | What it does | How it is made |
-|---|---|---|
-| Overview | Shows where we are | Original paper figure + native highlight |
-| Mechanism | Explains exact operations | Editable shapes, text and connectors |
-| Example | Makes the operation concrete | Embedded blue-and-white teaching image |
+## Current workflow
 
-## One example, three steps
+1. **Select the source.** Verify the paper version and figure/table number. Prefer author-provided originals or material from the same-version PDF.
+2. **Reuse the template.** Place the source in the approved figure frame, preserving its aspect ratio. Reuse the original overview or zoom into a faithful original panel.
+3. **Unfold the explanation.** Keep positions stable. At each step explain the input, operation, output, state and condition. Preserve original edges, labels, axes, units and comparison groups.
+4. **Write the notes.** Record what to point at, how to read it, the transition, limitations and exact source. Check projection-size readability.
 
-![Actual embedded retrieval diagram: embed a query, rank two illustrative candidates, load the selected experience's linked atom.](showcase-diagram.png)
+Content figures use only original paper figures, tables and faithful crops. When the paper has no suitable figure, use a large-text page with spoken detail in notes. Do not generate illustrations or redraw mechanisms/results for a new talk.
 
-**Query → ranked experience → linked memory atoms → prompt**
+Slide titles, conclusions and necessary short labels remain editable. Embedded paper images retain their original content; PNG labels are rasterized.
 
-The task query is the retrieval key. The full trace supports judging and extraction. In this example, candidate order and atom wording are teaching choices; the ranking was not measured.
+## Reference archive
 
-## Make your own
+![Dark README adaptation of the historical retrieval teaching example; candidate order is illustrative.](assets/readme/retrieval-dark.svg)
 
-1. **Specify meaning.** Name the objects, states, edges and conditions. Say what each arrow carries and which objects remain separate.
-2. **Choose the medium.** Keep exact topology, formulas and changing text native. Generate a bounded illustration only when it improves understanding.
-3. **Reveal one dependency.** Keep positions fixed: query first, candidates next, selected atom last. Use consecutive slides when animation is unavailable.
-4. **Embed and inspect.** Contain images at their original aspect ratio. Check labels, arrow direction and readability at presentation size. Keep a complete static final state.
+[See the actual historical figure and full slide](EXAMPLES.md).
 
-For PPTX, retain editable mechanism objects and add the image separately with alt text and source notes. For HTML, use DOM text/SVG connections for the precise layer and an ordinary image for the illustration. PNG text remains rasterized; changing it requires image editing or native reconstruction.
+The approved ReasoningBank deck combined a stationary overview, native explanation and embedded teaching figures. The figure above is a README adaptation of that historical example. Its query candidates, ordering and atom wording were teaching choices; the ranking was not measured.
 
-The skill includes this method; use your current presentation tool.
+Current talks reuse the layout with the new paper's own figures. The archived ImageGen prompt below documents how the original example was made; it is not the current production default. No image model or API adapter is bundled.
 
 <details>
-<summary>Original prompt · exact production text</summary>
+<summary>Historical ImageGen prompt · exact production text</summary>
 
 Actual ImageGen call: **2026-11-13, 04:52:46.658 UTC**, opaque background. The prefix and composition were joined with one space.
 
@@ -55,6 +51,6 @@ Actual assets from the final 43-page ReasoningBank presentation. The first-purch
 
 The generated image was cropped to **2172 × 370 px** at `(0,180)` to remove unused margins. Slide 15 contains it within `x=.65, y=4.82, w=12, h=2.28 in`, preserving its aspect ratio rather than stretching it. The skill retains this exact final crop as `assets/image-references/teaching-retrieval.png`.
 
-Adapt the objects and labels for a new paper. Mark adapted prompts as new; never inherit this example's facts or illustrative ranking as evidence.
+This is an archival production record. Current talks reuse the template layout with figures from the paper being presented; this historical prompt does not authorize new generated content figures.
 
 </details>

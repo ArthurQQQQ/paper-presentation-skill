@@ -1,0 +1,9 @@
+{
+  "version": "v1.2.0",
+  "skill_name": "artifact-template-reasoningbank-research-slides",
+  "base_release": "v1.1.0",
+  "base_asset": "reasoningbank-research-slides-v1.1.0.zip",
+  "base_sha256": "1532ae1b9a8cbad30f6798f3eb3dece9b6e6ea06fd24e1d0e6111b8f37f03a34",
+  "title": "v1.2.0 \u00b7 Duration-aware academic talks",
+  "notes_file": "RELEASE-NOTES.md"
+}

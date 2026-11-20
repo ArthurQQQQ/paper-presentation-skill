@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420" role="img" aria-labelledby="title desc">
+  <title id="title">How we make a research talk</title>
+  <desc id="desc">Start with the paper and duration, reuse the original template, select original figures and tables, then add speaker notes and inspect readability.</desc>
+  <rect width="1400" height="420" rx="20" fill="#0d1117"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="48" y="74" font-size="38" font-weight="700" fill="#f0f6fc">Paper first. Original figures. A talk you can give.</text>
+    <rect x="48" y="130" width="288" height="180" rx="12" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <rect x="386" y="130" width="288" height="180" rx="12" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <rect x="724" y="130" width="288" height="180" rx="12" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <rect x="1062" y="130" width="288" height="180" rx="12" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+    <text x="72" y="179" font-size="28" font-weight="700" fill="#79c0ff">Paper + time</text>
+    <text x="72" y="234" font-size="25" fill="#f0f6fc">Read + select</text>
+    <text x="72" y="276" font-size="25" fill="#b1bac4">Plan the depth</text>
+    <text x="410" y="179" font-size="28" font-weight="700" fill="#79c0ff">Original template</text>
+    <text x="410" y="234" font-size="25" fill="#f0f6fc">Reuse page layouts</text>
+    <text x="410" y="276" font-size="25" fill="#b1bac4">Keep type + spacing</text>
+    <text x="748" y="179" font-size="28" font-weight="700" fill="#79c0ff">Paper figures</text>
+    <text x="748" y="234" font-size="25" fill="#f0f6fc">Whole figure or crop</text>
+    <text x="748" y="276" font-size="25" fill="#b1bac4">Keep labels + units</text>
+    <text x="1086" y="179" font-size="28" font-weight="700" fill="#79c0ff">Notes + review</text>
+    <text x="1086" y="234" font-size="25" fill="#f0f6fc">Sources + explanation</text>
+    <text x="1086" y="276" font-size="25" fill="#b1bac4">Check readability</text>
+    <g fill="none" stroke="#79c0ff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M350 220H372M364 212L372 220L364 228"/>
+      <path d="M688 220H710M702 212L710 220L702 228"/>
+      <path d="M1026 220H1048M1040 212L1048 220L1040 228"/>
+    </g>
+    <text x="48" y="374" font-size="24" fill="#8b949e">Original paper visuals · Original template layouts · Per-slide speaker notes</text>
+  </g>
+</svg>

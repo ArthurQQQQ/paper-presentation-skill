@@ -1,0 +1,7 @@
+interface:
+  display_name: "ReasoningBank Research Slides"
+  short_description: "Academic talks shaped by duration, logic and visual evidence"
+  icon_large: "./assets/preview.png"
+  default_prompt: "Use $artifact-template-reasoningbank-research-slides. Start with my paper and speaking/Q&A duration. Once the structure is set, ask for any missing presenter name and school before the cover, while continuing the body. Offer known prior settings as choices and let me edit one or both. Reuse the original template layouts. Use only original figures and tables from the paper. Put details and sources in speaker notes."
+policy:
+  allow_implicit_invocation: true
