@@ -4,7 +4,7 @@
 <p align="center">从内容取舍到讲述逻辑，让问题、机制和证据连起来。</p>
 
 <p align="center">
-  <a href="https://github.com/ArthurQQQQ/paper-presentation-skill/releases/download/v1.0.0/reasoningbank-research-slides-v1.0.0.zip">下载完整 skill</a>
+  <a href="https://github.com/ArthurQQQQ/paper-presentation-skill/releases/download/v1.1.0/reasoningbank-research-slides-v1.1.0.zip">下载完整 skill</a>
   &nbsp; · &nbsp;
   <a href="CONTENT-GUIDE.md">阅读制作逻辑</a>
 </p>
@@ -18,6 +18,22 @@
 <p align="center">
   <img src="showcase-mechanism.png" width="100%" alt="实际机制页：上方解释query编码、相似度排序与载入记忆，下方用首购案例走完同一过程。">
 </p>
+
+<br>
+
+## Diagram，先定语义，再嵌入
+
+精确机制用可编辑对象，具体案例用蓝白教学图，固定总览标出当前步骤。
+
+<p align="center">
+  <img src="showcase-diagram.png" width="100%" alt="实际嵌入的教学diagram：新query、两条示意候选、所选候选关联的memory atom；不含测量分数。">
+</p>
+
+**定对象与箭头 → 选择原生图或生成素材 → 分步展开 → 等比嵌入 → 检查语义与可读性**
+
+[看 diagram 怎么做，以及当时实际使用的 prompt →](DIAGRAM-GUIDE.md)
+
+这是第15页实际嵌入的案例图；候选排序是教学示意。新版内置制作模块与原始prompt，无需另装diagram skill。
 
 <br>
 
@@ -62,7 +78,7 @@
 
 ## 开始使用
 
-**[下载完整 v1.0.0 技能包](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/download/v1.0.0/reasoningbank-research-slides-v1.0.0.zip)** · 约44 MiB · 75个文件
+**[下载完整 v1.1.0 技能包](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/download/v1.1.0/reasoningbank-research-slides-v1.1.0.zip)** · 约44 MiB
 
 1. 下载Release中的完整ZIP并解压。
 2. 将 `artifact-template-reasoningbank-research-slides` 文件夹放入个人Codex技能目录，通常为 `~/.codex/skills/`。
@@ -81,12 +97,12 @@
 
 完整安装内容在Release ZIP中；仓库主分支提供首页展示与流程说明。
 
-包内包括skill指令、内容流程、实验选图、图片生成模板、讨论设计、43页逐页分析、原始PPTX/PDF、全部页例及可选交互预览。个人配置与凭据不在包内。
+包内包括skill指令、内容流程、实验选图、内置diagram制作与原始prompt、图片生成模板、讨论设计、43页逐页分析、原始PPTX/PDF、全部页例及可选交互预览。个人配置与凭据不在包内。
 
 已独立审阅内容流程，并完成有边界的故事板试用；新论文完整成稿的视觉复现仍需在实际制作时检查。上方图片展示的是保留参考稿。
 
 参考稿中的作者、机构标识、研究图表与媒体保留各自来源。它们用于展示表达与视觉方法，新使用者的身份不从参考稿继承。第三方材料的归属与适用条款以原来源为准。
 
-[发布记录与校验文件](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.0.0)
+[发布记录与校验文件](https://github.com/ArthurQQQQ/paper-presentation-skill/releases/tag/v1.1.0)
 
 </details>
